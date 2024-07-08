@@ -413,3 +413,52 @@ body{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;    
 }
+
+/* footer-styles */
+
+footer{
+    width: 1320px;
+    height: 610px;
+    margin: 120px auto;
+    background-color: rgba(7, 2, 17, 0.9);
+    border-radius: 16px;
+}
+
+.footer-top{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#call, #web{
+    width: 17px;
+    height: 17px;
+}
+
+footer> hr{
+    width: 1020px;
+    border: 1px	solid rgba(255, 255, 255, 0.15);
+    margin: 50px auto;
+}
+
+.footer-images{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-bottom{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bottom>div>p{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
