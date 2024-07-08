@@ -253,3 +253,100 @@ body{
     font-weight: 400;
     margin-bottom: 20px;
 }
+
+/*holidays-sale-section-styles*/
+
+.holidays-sale-section{
+    border-radius: 16px;
+    width: 1320px;
+    height: 985px;
+    margin: 120px auto;
+    text-align: center;
+    position: relative;
+}
+
+.hs-contents>h6{
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.hs-contents>h1{
+    color: rgb(7, 2, 17);
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.hs-contents>h1>span{
+    color: rgb(255, 0, 0);
+}
+
+.hs-contents>p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    width: 1068px;
+    margin: 28px auto;
+}
+
+.holidays-sale-section> #image1{
+    position: absolute;
+    top: 77%;
+}
+
+.holidays-sale-section> #image2{
+    position: absolute;
+    top: 35%;
+    width: 675px;
+    height: 575px;
+}
+
+.holidays-sale-section> #image3{
+    position: absolute;
+    left: 70%;
+    top: 40%;
+}
+
+/*portfolio-section-style*/
+
+.portfolio-section{
+    border-radius: 16px;
+    width: 1320px;
+    height: 1165px;
+    margin: 0 auto;
+}
+
+.portfolio-contents>h6{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio-contents>h1{
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.portfolio-contents>p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    margin-bottom: 45px;
+}
+
+.portfolio-images1{
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-images2{
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+}
